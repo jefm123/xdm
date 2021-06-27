@@ -89,7 +89,7 @@ public class UpdateChecker {
 		JavaHttpClient client = null;
 		try {
 			client = new JavaHttpClient(
-					XDMApp.APP_UPDAT_URL + "?ver=" + version);
+					XDMApp.APP_UPDAT_URL);
 			client.setFollowRedirect(true);
 			client.connect();
 			int resp = client.getStatusCode();
