@@ -902,9 +902,6 @@ public class MainWindow extends XDMFrame implements ActionListener {
 		showTwitterIcon = true;
 		showFBIcon = true;
 		showGitHubIcon = true;
-		fbUrl = XDMApp.APP_FACEBOOK_URL;
-		twitterUrl = XDMApp.APP_TWITTER_URL;
-		gitHubUrl = XDMApp.APP_HOME_URL;
 
 		JLabel lblTitle = new JLabel(XDMApp.XDM_WINDOW_TITLE);
 		lblTitle.setBorder(new EmptyBorder(scale(20), scale(20), scale(20), 0));
