@@ -64,13 +64,13 @@ import xdman.util.XDMUtils;
 public class XDMApp implements DownloadListener, DownloadWindowListener, Comparator<String> {
 	public static final String GLOBAL_LOCK_FILE = ".xdm-global-lock";
 	public static final String APP_VERSION = "7.2.11";
-	public static final String XDM_WINDOW_TITLE = "XDM 2020";
-	public static final String APP_UPDAT_URL = "https://api.github.com/repos/subhra74/xdm/releases/latest";
-	public static final String APP_UPDATE_CHK_URL = "https://subhra74.github.io/xdm/update-checker.html?v=";
-	public static final String APP_WIKI_URL = "https://github.com/subhra74/xdm/wiki";
-	public static final String APP_HOME_URL = "https://github.com/subhra74/xdm";
-	public static final String APP_TWITTER_URL = "https://twitter.com/XDM_subhra74";
-	public static final String APP_FACEBOOK_URL = "https://www.facebook.com/XDM.subhra74/";
+	public static final String XDM_WINDOW_TITLE = "XDM";
+	public static final String APP_UPDAT_URL = "";
+	public static final String APP_UPDATE_CHK_URL = "";
+	public static final String APP_WIKI_URL = "";
+	public static final String APP_HOME_URL = "";
+	public static final String APP_TWITTER_URL = "";
+	public static final String APP_FACEBOOK_URL = "";
 	public static final String[] ZOOM_LEVEL_STRINGS = { "Default", "50%", "75%", "100%", "125%", "150%", "200%", "250%",
 			"300%", "350%", "400%", "450%", "500%" };
 	public static final double[] ZOOM_LEVEL_VALUES = { -1, 0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5,
